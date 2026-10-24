@@ -1,1 +1,19 @@
 
+{
+"queues": [
+{
+"queueName": "Q.TEST.001",
+"accessType": "exclusive",
+"egressEnabled": true,
+"ingressEnabled": true,
+"permission": "consume"
+}
+],
+"clientProfiles": [
+{
+"clientProfileName": "CP.TEST",
+"allowGuaranteedMsgSendEnabled": true,
+"allowGuaranteedMsgReceiveEnabled": true
+}
+]
+}
